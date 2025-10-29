@@ -3,13 +3,13 @@
 本脚本用于将 PaloAlto XDR 列表导入到 PaloAlto firewall 中。
 ## 使用方法
 运行Python脚本，会弹出GUI界面，根据界面填入相关信息
-![alt text](image\Dashboard.png)
+![alt text](image/Dashboard.png)
 
 1. API对接
     1.1. 生成API权限
     前往XDR控制台，依次点击：
     Settings -> API Keys -> + New Key
-    ![alt text](image\Export-Hashlist.png)
+    ![alt text](image/Export-Hashlist.png)
     API权限：Advanced -> 需要Edit Allow / Block List 权限
 
     1.2. 填写API信息
@@ -19,7 +19,7 @@
     2.1. 从平台A迁移到平台B 可以直接前往XDR控制台Export to File
     XDR：Incident Response -> Response -> Action Center -> Allow / Block List
     XSIAM: Investigation & Response -> Response -> Action Center -> Allow / Block List
-    ![alt text](image\GEN-API.png)
+    ![alt text](image/GEN-API.png)
 
     2.2. 手动生成tsv文件
     Hash	Status	Comment	Incident ID
